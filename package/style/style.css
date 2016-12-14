@@ -14,3 +14,20 @@ span:hover{
 #secondspan{
     color:purple;
 }
+th{background-color: black;
+    color:white;
+    text-transform:uppercase;
+    cursor:pointer;
+    font-size: 50px
+}
+th:hover{
+    background-color:red;
+}
+table{
+    border: solid 3px
+        
+}
+td{background-color: greenyellow;
+    font-size: 40px;
+    
+}
