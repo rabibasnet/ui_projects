@@ -1,0 +1,32 @@
+
+
+        
+
+td:hover{
+    background-color:red;
+}
+table, td{
+    border: solid black 6px
+      
+}
+table{
+    
+      border-spacing: 2px;
+    padding: inherit;
+ align-self: center;
+}
+td{background-color: seagreen;
+    color:white;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+#khali{
+    color: red;
+}
+#khal{
+    color: red;
+}#kha{
+    color: red;
+}#kh{
+    color: red;
+}

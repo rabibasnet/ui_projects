@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Forms</title>
+       <script type="text/javascript" src="scripts/process.js"></script>
+        <link rel="stylesheet" href="style/jpt.css">
+    </head>
+ <body background="11.jpg" >
+    <form name='getform' method='GET'>
+    <table>
+      <tr>
+        <td>firstName</td>
+        <td><input type='text' placeholder='Enter Firstname' name='firstName' id='firstName' value=''/> </td> 
+           <td><marquee> <div id="khali" ></div></marquee> </td> 
+      </tr>
+      <tr>
+        <td>lastName</td>
+        <td><input type='text'  placeholder='Enter Lastname' name='lastName' id='lastName' value=''/> </td> 
+           <td> <marquee direction="right"><div id="khal"></div></marquee> </td>
+      </tr>
+      <tr>
+        <td>address</td>
+        <td><input type='text'  placeholder='Enter address' name='address' id='address' value=''/> </td>  
+           <td> <marquee direction ="up"><div id="kha"></div></marquee> </td>
+      </tr>
+        <tr>
+        <td>Country</td>
+            <td><select name='countries' id='countries'> 
+            
+            <option value=1> Nepal</option>
+            <option value =2 selected> USA</option>
+            <option value =3> japan</option>
+            <option value =3> Mexico</option>
+            </select>
+            </td>
+            
+        </tr>
+    <tr>
+        <td>password</td>
+        <td><input type='password'  placeholder='Enter password'name='password' id='password' value=''/> </td>  
+        <td> <div id="kh"></div> </td>
+      </tr>
+        <tr>
+        <td>Sex</td>
+        <td>
+        <input type=radio  name='gender' id='genMale' value='Male'>Male   
+        <input type=radio  name='gender' id='genFemale' value='Female'>Female 
+        <input type=radio  name='gender' id='other' value='other'>Other 
+            </td>                 
+      </tr>
+        <tr>
+        <td>cars</td>
+        <td><input type='checkbox' name='TOYOTA' id='TOYOTA' value='TOYOTA'/>TOYOTA </td>  
+        </tr>
+        
+        <tr>
+        
+            <td> </td>
+            <td><input type='checkbox' name='BMW' id='BMW' value='BMW'/>BMW </td>  
+        </tr>
+        <tr>
+        <td></td>
+        <td><input type='checkbox' name='RIKSHAW' id='RIKSHAW' value='RIKSHAW'/>RIKSHAW </td>  
+        </tr>
+        
+        <tr>
+        <td></td>
+        <td><input type='checkbox' name='TANGI' id='TANGI' value='TANGI'/>TANGI </td>  
+        </tr>
+        
+      <tr>
+        <td colspan="2">
+            <input type="submit" value="submit"  onClick="processForm()"/>
+          </td>
+            
+      </tr>
+        </table>
+        </form>
+        <!--<div id="results">  Results should be displayed here</div>-->
+        
+    </body>
+</html>

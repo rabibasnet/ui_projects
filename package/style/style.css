@@ -1,9 +1,7 @@
 span{
     font-size: 50px;
     color:green;
-        cursor:pointer;
-    
-    
+        cursor:pointer;  
 }
 span:hover{
     font-size: 150px;
@@ -24,7 +22,7 @@ th:hover{
     background-color:red;
 }
 table{
-    border: solid 3px
+    border: solid 5px
         
 }
 td{background-color: greenyellow;
